@@ -7,7 +7,7 @@ export function Header() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             
-            {/* Logo & App Name */}
+            {/* Left: ZetuBridge Logo & Name */}
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-full overflow-hidden">
                 <img
@@ -21,8 +21,14 @@ export function Header() {
               </h1>
             </div>
 
-            {/* Right side intentionally left empty */}
-            <div />
+            {/* Right: partner Logo () */}
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img
+                src="https://iili.io/f8kp1YN.jpg"
+                alt="Partner Logo"
+                className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110 shadow-md"
+              />
+            </div>
 
           </div>
         </div>
