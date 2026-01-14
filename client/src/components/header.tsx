@@ -29,6 +29,25 @@ export function Header() {
                 <span className="text-dark font-medium">
   Welcome back, <span className="font-semibold">{user.name}</span>!
 </span>
+<Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={logout}
+                  className="text-primary hover:text-primary/80"
+                >
+                  <LogOut size={16} />
+                </Button>
+              </div>
+            ) : (
+              <Button
+                onClick={() => setShowAuthModal(true)}
+                className="gradient-bg text-white hover:opacity-90"
+              >
+                Sign In
+              </Button>
+            )}
+          </div>
+        </div>
                 
       </header>
 
