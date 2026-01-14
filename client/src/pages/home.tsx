@@ -86,8 +86,10 @@ export default function Home() {
                 Building Bridges in Learning
               </h2>
               <p className="text-base sm:text-lg md:text-xl mb-8 text-orange-100 leading-relaxed">
-                Discover premium educational apps designed for students and professionals. 
-                Access quality resources, study materials, and innovative learning tools.
+                Important for KMTC & Medical Students
+This website does NOT host past papers or notes.
+👉 All answered KMTC past papers, notes, anatomy videos, and 3D views are available ONLY inside the MED-A app.
+Download MED-A to access all study materials.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button
