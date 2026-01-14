@@ -24,7 +24,7 @@ export function Header() {
             {/* Right: partner Logo () */}
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <img
-                src="https://iili.io/f8kp1YN.jpg"
+                src="https://iili.io/f8vgA5x.jpg"
                 alt="Partner Logo"
                 className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110 shadow-md"
               />
